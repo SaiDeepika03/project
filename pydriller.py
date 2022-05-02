@@ -1,6 +1,6 @@
 from pydriller import Repository
 
-for commit in Repository('https://github.com/studentname/scipy').traverse_commits():
+for commit in Repository('https://github.com/SaiDeepika03/scipy').traverse_commits():
     print(commit.hash)
     print(commit.msg)
     print(commit.author.name)
